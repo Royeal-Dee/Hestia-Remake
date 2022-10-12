@@ -1,0 +1,77 @@
+.page-container {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  .navbar {
+    display: flex;
+    width: 100%;
+    height: 80px;
+    background-color: black;
+    padding: 0.1s;
+    vertical-align: middle;
+    align-items: center;
+    .nav-left {
+      display: flex;
+    }
+    .nav-right {
+      display: flex;
+    }
+  }
+}
+
+.navbar .nav-links {
+  display: flex;
+}
+
+.header-container {
+  display: flex;
+}
+
+.float-container {
+  display: flex;
+}
+
+.float-left {
+  display: flex;
+}
+
+.float-middle {
+  display: flex;
+}
+
+.float-right {
+  display: flex;
+}
+
+.about-parallax {
+  display: flex;
+}
+
+.float-blog {
+  display: flex;
+}
+
+.blog-left {
+  display: flex;
+}
+
+.blog-middle {
+  display: flex;
+}
+
+.blog-right {
+  display: flex;
+}
+
+.float-touch {
+  display: flex;
+}
+
+.footer {
+  .nav-about {
+    display: flex;
+    .nav-parent {
+      display: flex;
+    }
+  }
+}
