@@ -1,3 +1,30 @@
-* {
-  color: blue;
+.blog-container {
+  display: flex;
+  color: red;
 }
+.blog-container .navbar .nav-left {
+  display: flex;
+}
+.blog-container .navbar .nav-right {
+  display: flex;
+}
+
+.main-content-container {
+  display: flex;
+}
+
+.worth-a-thousand-words {
+  display: flex;
+}
+
+.elements {
+  display: flex;
+}
+
+.more-tags {
+  display: flex;
+}
+
+.html {
+  display: flex;
+}/*# sourceMappingURL=blog.css.map */

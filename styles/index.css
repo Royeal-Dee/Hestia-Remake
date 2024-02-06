@@ -1,23 +1,105 @@
-.page-container {
+body,
+html {
+  max-width: 100%;
+  max-height: 100%;
+  margin: 0;
+  background-color: rgb(32, 33, 37);
+}
+
+a {
+  text-decoration: none;
+  color: red;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+.page-container > .page-container-wrapper {
+  background-color: red;
+  border: 2px solid red;
   display: flex;
   height: 100%;
   width: 100%;
 }
 
-.page-container .navbar {
+.page-container > .navbar {
+  color: red;
+  border: 2px solid red;
   display: flex;
   width: 100%;
-  height: 100%;
+  height: 80px;
   background-color: black;
   padding: 0.1s;
   vertical-align: middle;
   align-items: center;
 }
-
-.page-container .navbar .nav-left {
+.page-container > .navbar .nav-left {
+  border: 2px solid red;
+  display: flex;
+  color: red;
+}
+.page-container > .navbar .nav-right {
+  border: 2px solid red;
+  color: red;
   display: flex;
 }
 
-.page-container .navbar .nav-right {
-  display: flext;
+.navbar .nav-links {
+  color: red;
+  display: flex;
 }
+
+.header-container {
+  border: 2px solid red;
+  display: flex;
+}
+.header-container h1 {
+  color: red;
+}
+
+.float-container {
+  display: flex;
+}
+
+.float-left {
+  display: flex;
+}
+
+.float-middle {
+  display: flex;
+}
+
+.float-right {
+  display: flex;
+}
+
+.about-parallax {
+  display: flex;
+}
+
+.float-blog {
+  display: flex;
+}
+
+.blog-left {
+  display: flex;
+}
+
+.blog-middle {
+  display: flex;
+}
+
+.blog-right {
+  display: flex;
+}
+
+.float-touch {
+  display: flex;
+}
+
+.footer .nav-about {
+  display: flex;
+}
+.footer .nav-about .nav-parent {
+  display: flex;
+}/*# sourceMappingURL=index.css.map */

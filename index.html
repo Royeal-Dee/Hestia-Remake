@@ -2,49 +2,50 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <title>Hestia Remake</title>
-    <link rel="stylesheets" href="./styles/index.scss">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheets" type="text/css" href="./styles/index.css" />
   </head>
 
-<body>
-  <div class="page-container">
-      <div class="navbar">
-        <div class="nav-left">
-          <a href="/index.html"><h3>Hestia</h3></a>
-          <div class="nav-right">
-            <a href="./index.html">Home</a>
-            <a href="./pages/blog.html">Blog</a>
-            <a href="./pages/contact.html">Contact</a>
-            <button id="more" class=btn-round">
-              <a href="#what-we-stand-for">More</button></a>
+  <body>
+    <div class="page-container">
+      <div class="page-container-wrapper">
+        <div class="navbar">
+          <div class="nav-left">
+            <a href="/index.html"><h3>Hestia</h3></a>
+            <div class="nav-right">
+              <a href="./index.html">Home</a>
+              <a href="./pages/blog.html">Blog</a>
+              <a href="./pages/contact.html">Contact</a>
+              <button id="more" class=btn-round">
+                <a href="#what-we-stand-for">More</button></a>
+            </div>
+          </div>
+      
+          <div class="header-container">
+            <h1>Welcome to Hestia!</h1>
+            <h4>Lorem ipsum dolor sit amet</h4>
+            <img src="/images/mountain.png" alt="mountain" />
+          </div>
+      
+          <div class="nav-links">
+            <div class="nav-more">
+              <a href="#what-we-stand-for"><button>SEE MORE</button></a>
+            </div>
           </div>
         </div>
+      </div>
 
-        <div class="navbar-toggle-container">
-          <button type="button" class="navbar-toggle" data-toggle="collapse"
-          data-target="#main-navigation">
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="sr-only">Toggle Navigation</span>
-          </button>
-        </div>
-  
-      <div class="header-container">
-        <h1>Welcome to Hestia!</h1>
-        <h4>Lorem ipsum dolor sit amet</h4>
-        <img src="/images/mountain.png" alt="mountain" />
-      </div>
-  
-      <div class="nav-links">
-        <div class="nav-more">
-          <a href="#what-we-stand-for"><button>SEE MORE</button></a>
-        </div>
-      </div>
-  
+
+    
       <div id="float-container">
         <h3 id="what-we-stand-for"><b>What we stand for</b></h3>
         <div class="float-left">
@@ -58,7 +59,7 @@
             eiusmod tempor incididunt ut labore et dolore magna aliqua.
           </p>
         </div>
-  
+
         <div class="float-middle">
           <img
             src="/images/Quality.png"
@@ -70,7 +71,7 @@
             eiusmod tempor incididunt ut labore et dolore magna aliqua.
           </p>
         </div>
-  
+
         <div class="float-right">
           <img
             src="/images/Support.png"
@@ -82,7 +83,7 @@
             eiusmod tempor incididunt ut labore et dolore magna aliqua.
           </p>
         </div>
-  
+
         <div class="about-parallax">
           <h3>About Hestia</h3>
           <p>
@@ -92,32 +93,32 @@
           <img src="/images/city.png" />
           <img src="/images/about-content.png" />
         </div>
-  
+
         <div class="float-blog">
           <h2>Blog</h2>
           <div class="blog-left">
             <a href="#">UNCATEGORIZED</a>
-            <a href="#">Worth a Thousand Words</a>
+            <a href="/blog/worth.html">Worth a Thousand Words</a>
             <p>Boat.</p>
           </div>
-  
+
           <div class="blog-middle">
             <a href="#">UNCATEGORIZED</a>
-            <a href="#">Elements</a>
+            <a href="/blog/elements.html">Elements</a>
             <p>
               The purpose of this HTML is to help determine what default settings
               are with CSS and to make sure that all possible HTML Elements are
               included in this HTML so as to not miss anyRead more…
             </p>
           </div>
-  
+
           <div class="blog-right">
             <a href="#">UNCATEGORIZED</a>
-            <a href="#">More Tags</a>
+            <a href="/blog/tags.html">More Tags</a>
             <p>More of these posts need tags</p>
           </div>
         </div>
-  
+
         <div class="float-touch">
           <h2>Get in Touch</h2>
           <h5>Find us at the office</h5>
@@ -127,16 +128,16 @@
           <img src="/images/city.png" />
         </div>
       </div>
-  
+    
       <div class="footer">
         <div class="nav-about">
           <a href="/pages/about.html">ABOUT</a>
         </div>
-  
+
         <div class="nav-parent">
           <a href="/pages/parent.html">PARENT PAGE</a>
         </div>
       </div>
-  </div>
+    </div>
   </body>
 </html>
