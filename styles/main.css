@@ -1,3 +1,19 @@
+body,
+html {
+  max-width: 100%;
+  max-height: 100%;
+  margin: 0;
+  background-color: rgb(249, 249, 249);
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+a:hover {
+  color: red;
+}
+
 .page-container {
   display: flex;
   flex-direction: column;
@@ -16,6 +32,7 @@
   color: black;
   background-color: #ff91af;
   position: fixed;
+  z-index: 3;
   top: 0;
 }
 .page-container .navbar .nav-left {
@@ -83,6 +100,7 @@
 }
 
 .float-container {
+  background-size: cover;
   width: 95%;
   border: 2px solid red;
   align-items: center;
@@ -107,10 +125,78 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  margin-bottom: 55px;
 }
-.float-container .float-wrapper .float-left img {
+.float-container .float-wrapper img {
   display: flex;
-  margin: auto;
-  align-items: center;
   justify-content: center;
-}/*# sourceMappingURL=index.css.map */
+  align-items: center;
+  margin: auto;
+}
+.float-container .float-wrapper h5 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.float-container .float-wrapper p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 40px;
+  margin: auto;
+  text-align: center;
+}
+.float-container .about-parallax {
+  display: flex;
+  background-image: url("../images/city.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 95%;
+  height: 20em;
+  z-index: -1;
+  position: absolute;
+  top: 60em;
+}
+.float-container .about-parallax h3,
+.float-container .about-parallax p {
+  color: white;
+}
+
+.blog-float-wrapper {
+  margin-top: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.blog-container {
+  display: flex;
+  color: red;
+}
+.blog-container .navbar .nav-left {
+  display: flex;
+}
+.blog-container .navbar .nav-right {
+  display: flex;
+}
+
+.main-content-container {
+  display: flex;
+}
+
+.worth-a-thousand-words {
+  display: flex;
+}
+
+.elements {
+  display: flex;
+}
+
+.more-tags {
+  display: flex;
+}
+
+.html {
+  display: flex;
+}/*# sourceMappingURL=main.css.map */
